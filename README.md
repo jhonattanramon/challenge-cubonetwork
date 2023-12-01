@@ -15,7 +15,7 @@ o desafio consiste na criação de um dashboard simples, onde os dados passaria 
 
 nesse diretorio contem apenas o projeto de front-end a seguir estará o link para o repository do Back-end 
 
- back-end: https://github.com/jhonattanramon/challenge-cubonetwork
+ back-end:https://github.com/jhonattanramon/challenge-cubonetwerk-api
  
  link do desafio: https://github.com/cubonetwork/fullstack-challenge  
 
