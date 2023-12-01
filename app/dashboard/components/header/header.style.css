@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .headerDashboard {
+   @apply  flex
+   p-8
+   flex-col
+   justify-center
+   bg-cyan-500
+
+  }
+  .headerDashboard > div {
+    @apply flex 
+    justify-center
+  }
+  .headerDashboard__divInput{
+    @apply flex
+    justify-center 
+    items-center
+    py-3
+    gap-5
+  text-white;
+  }
+
+  .inputHeaderDashboard {
+    @apply p-1.5
+     text-sm
+   text-black 
+     rounded-sm;
+  }
+
+  .buttonSendHeaderDashboard {
+    @apply border-white
+     border-2
+     bg-none
+     px-5 py-1
+     rounded-sm
+     uppercase 
+     text-sm
+     font-medium
+     flex
+     items-center
+  }
+
+  #campForError{
+    @apply text-sm 
+    text-red-600
+  }
+}

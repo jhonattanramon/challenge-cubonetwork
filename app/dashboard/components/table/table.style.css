@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    
+    .table__column{
+    @apply border
+    border-gray-400       
+    }
+    
+    .table__row{
+       @apply border
+       border-black
+    }
+
+    .table__cell {
+        @apply border
+        border-gray-400
+        p-2
+        capitalize
+    }   
+
+    .table__cellHeader {
+        @apply text-gray-700
+        text-sm
+        font-bold
+        bg-gray-50
+        capitalize
+    }
+
+
+}
